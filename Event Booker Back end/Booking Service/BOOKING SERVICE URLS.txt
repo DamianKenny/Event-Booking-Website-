@@ -1,0 +1,16 @@
+BOOKING SERVICE URLS
+
+1. URL: GET http://localhost:8082/rest-app/bookings/{id}
+
+2. URL: GET http://localhost:8082/rest-app/bookings/user/{userId}
+
+3. URL: POST http://localhost:8082/rest-app/bookings
+               {
+                 "userId": 1,
+                 "eventId": 4
+               }
+
+4. URL: GET http://localhost:8082/rest-app/bookings/event/{eventId}
+
+5. URL: CANCEL/DELETE http://localhost:8082/rest-app/bookings/{id}
+

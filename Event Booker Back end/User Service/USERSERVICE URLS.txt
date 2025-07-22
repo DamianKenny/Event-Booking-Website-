@@ -1,0 +1,31 @@
+USERSERVICE URLS:
+
+1. GET - Get User Details : http://localhost:8080/rest-app/users/{id}
+
+2. POST- Register a New User: http://localhost:8080/rest-app/users/register (Content-Type: application/json)
+         {
+           "name": "Dexter Morgan",
+           "email": "dexmorg@example.com",
+           "password": "biney"
+          }
+
+3. DELETE - Delete a User Account: http://localhost:8080/rest-app/users/{id}
+
+4. PUT - Update User Profile: http://localhost:8080/rest-app/users/{id}(Content-Type: application/json)
+
+          {
+            "name": "Updated Name",
+            "email": "updatedemail@example.com",
+            "password": "newpassword"
+          }
+
+5. POST - Authenticate User (Login): http://localhost:8080/rest-app/users/login (Content-Type: application/json)
+          {
+            "email": "dexmorg@example.com",
+            "password": "biney"
+          }
+
+
+
+  
+// I dont often make mistakes, but when I do they haunt me.      
